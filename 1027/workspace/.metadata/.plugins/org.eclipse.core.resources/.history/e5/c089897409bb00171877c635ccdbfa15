@@ -1,0 +1,10 @@
+
+public class Robot {
+	public static void main(String[] args){
+	Person jiro= new Person();
+	jiro.talk();
+	jiro.walk();
+	jiro.run();
+	}
+
+}

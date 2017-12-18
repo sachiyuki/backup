@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category name="カテゴリーなし">
+<launchConfiguration bookmark="false" name="Android"/>
+<launchConfiguration bookmark="false" name="Capsule"/>
+<launchConfiguration bookmark="false" name="Iphone"/>
+<launchConfiguration bookmark="false" name="Iphone (1)"/>
+<launchConfiguration bookmark="false" name="Iphone (2)"/>
+<launchConfiguration bookmark="false" name="Iphone (3)"/>
+<launchConfiguration bookmark="false" name="Iphone (4)"/>
+<launchConfiguration bookmark="false" name="Iphone (5)"/>
+<launchConfiguration bookmark="false" name="Iphone (6)"/>
+<launchConfiguration bookmark="false" name="Iphone (7)"/>
+<launchConfiguration bookmark="false" name="Test"/>
+<launchConfiguration bookmark="false" name="Test (1)"/>
+</category>
+</runner>

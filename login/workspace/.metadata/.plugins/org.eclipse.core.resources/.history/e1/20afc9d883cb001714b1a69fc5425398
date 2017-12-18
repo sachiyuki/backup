@@ -1,0 +1,15 @@
+package com.internousdev.template.dto;
+
+public class LoginDTO {
+
+	public boolean getLoginFlg() {
+		// TODO 自動生成されたメソッド・スタブ
+		return false;
+	}
+
+	public Object getLoginId() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

@@ -1,0 +1,7 @@
+drop database if exsists testdb;
+cleate database testdb;
+use testdb;
+cleate table test_table(User_id int, User_name varchar(255), password varchar(255));
+insert into test_table value(1,"taro","123");
+insert into test_table value(2,"jiro","456");
+insert into test_table value(3,"hanako","789");

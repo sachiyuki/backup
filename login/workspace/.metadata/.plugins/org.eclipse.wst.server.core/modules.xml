@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:template2" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+  <module moduleId="org.eclipse.jst.jee.server:WebProJ3" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+  <module moduleId="org.eclipse.jst.jee.server:login2" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+  <module moduleId="org.eclipse.jst.jee.server:WebProj2" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+  <module moduleId="org.eclipse.jst.jee.server:template4" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+  <module moduleId="org.eclipse.jst.jee.server:WebProj" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+  <module moduleId="org.eclipse.jst.jee.server:login" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+  <module moduleId="org.eclipse.jst.jee.server:WebProj4" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+  <module moduleId="org.eclipse.jst.jee.server:login7" serverId="ローカル・ホスト の Tomcat8 (Java8)"/>
+</modules>

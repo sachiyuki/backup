@@ -8,10 +8,14 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class BuyItemAction extends ActionSupport implements SessionAware {
 
-
 	private int count;
+    
+    
 	private String pay;
+    
+    
 	public Map<String, Object> session;
+    
 
 	public String execute(){
 		String result = SUCCESS;
@@ -22,11 +26,13 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 		session.put("total_price",intCount * intPrice);
 		String payment;
 
+
 		if (pay.equals("1")){
+            
 			payment = "現金払い";
 			session.put("pay",payment);
-
 		} else {
+            
 			payment = "クレジットカード";
 			session.put("pay",payment);
 		}
@@ -51,10 +57,6 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 
 	@Override
 	public void setSession(Map<String, Object> session) {
-		// TODO 自動生成されたメソッド・スタブ
 		this.session = session;
 	}
-
-
-
 }

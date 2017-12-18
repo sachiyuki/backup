@@ -77,6 +77,7 @@
 					</td>
 					<td>
 						<s:property value="session.buyItem_name" /><br>
+						<s:hidden name="buyItem_name" value='<s:property value="session.buyItem_name" />' />
 					</td>
 				</tr>
 				<tr>

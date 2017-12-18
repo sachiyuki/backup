@@ -20,3 +20,4 @@ org.eclipse.debug.core.DebugException: file:/E:/ÅüInternous/åãèÈ/buy/workspace/.
 2017-12-12 21:32:23,112 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2017-12-13 21:51:54,357 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2017-12-17 11:34:50,468 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2017-12-18 21:07:06,884 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not available. Remote download required.

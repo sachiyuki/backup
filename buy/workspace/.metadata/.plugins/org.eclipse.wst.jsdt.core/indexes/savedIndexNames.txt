@@ -1,8 +1,5 @@
-INDEX VERSION 1.3+H:\ŸInternous\Œ‹é\buy\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3302171490.index
-3225136201.index
+INDEX VERSION 1.3+C:\Users\testuser\Desktop\workspace\workspace-yuuki\backup\buy\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2526865336.index
 2150458918.index
 3082098993.index
-1557038381.index
-470547015.index
-546215768.index
+2684179402.index

@@ -29,6 +29,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 
 		loginDTO = loginDAO.getLoginUserInfo(loginUserId, loginPassword);
 		session.put("loginUser", loginDTO);
+		session.put("login_user_id", loginUserId);
 
 		if(((LoginDTO) session.get("loginUser")).getLoginFlg()){
 			result = SUCCESS;
@@ -37,6 +38,26 @@ public class LoginAction extends ActionSupport implements SessionAware{
 			session.put("id",buyItemDTO.getId());
 			session.put("buyItem_name", buyItemDTO.getItemName());
 			session.put("buyItem_price", buyItemDTO.getItemPrice());
+
+			System.out.println("---LOGIN ACTION");
+			System.out.println(buyItemDTO.getId());
+			System.out.println(buyItemDTO.getItemName());
+			System.out.println(buyItemDTO.getItemPrice());
+			System.out.println("---");
+			System.out.println(session.get("id"));
+			System.out.println(session.get("login_user_id"));
+			System.out.println(session.get("total_price"));
+			System.out.println("---セッション情報");
+			System.out.println(session.get("buyItem_name"));
+			System.out.println(session.get("buyItem_price"));
+			System.out.println("---");
+
+
+
+//			loginDTO.setLoginId(resultSet.getString("login_id"));
+//			loginDTO.setLoginPassword(resultSet.getString("login_pass"));
+//			loginDTO.setUserName(resultSet.getString("user_name"));
+
 
 			return result;
 		}

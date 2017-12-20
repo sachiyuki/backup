@@ -79,6 +79,14 @@
 		<div>
 			<s:form>
 				<tr>
+					<td>ID</td>
+					<td><s:property value="session.id" /></td>
+				</tr>
+				<tr>
+					<td>UserId</td>
+					<td><s:property value="session.login_user_id" /></td>
+				</tr>
+				<tr>
 					<td>商品名</td>
 					<td><s:property value="session.buyItem_name" /></td>
 				</tr>

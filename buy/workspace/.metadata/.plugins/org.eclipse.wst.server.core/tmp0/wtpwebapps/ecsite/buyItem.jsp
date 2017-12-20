@@ -76,8 +76,8 @@
 						<span>商品名</span>
 					</td>
 					<td>
-						<s:property value="session.buyItem_name" /><br>
-						<s:hidden name="buyItem_name" value='<s:property value="session.buyItem_name" />' />
+						<s:property value="#session.buyItem_name" /><br>
+						<s:hidden name="buyItem_name" value='<s:property value="#session.buyItem_name" />' />
 					</td>
 				</tr>
 				<tr>
@@ -85,7 +85,8 @@
 						<span>値段</span>
 					</td>
 					<td>
-						<s:property value="session.buyItem_price" /><span>円</span>
+						<s:property value="#session.buyItem_price" /><span>円</span>
+						<s:hidden name="buyItem_price" value='<s:property value="#session.buyItem_price" />' />
 					</td>
 				</tr>
 				<tr>

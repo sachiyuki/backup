@@ -1,0 +1,41 @@
+package com.internousdev.ecsite.dao;
+
+import com.internousdev.ecsite.dto.AdminItemDTO;
+
+public class AdminItemDAO {
+	private String adminLoginId;
+	private String adminLoginPassword;
+	private boolean adminLoginFlg = false;
+
+	public String getAdminLoginId(){
+		return adminLoginId;
+	}
+
+	public void setAdminLoginId(String adminLoginId){
+		this.adminLoginId = adminLoginId;
+	}
+
+	public String getAdminLoginPassword(){
+		return adminLoginPassword;
+	}
+
+	public void setAdminLoginPassword(String adminLoginPassword){
+		this.adminLoginPassword = adminLoginPassword;
+	}
+
+
+	public boolean getAdminLoginFlg(){
+		return adminLoginFlg;
+	}
+
+	public void setAdminLoginFlg(boolean adminLoginFlg){
+		this.adminLoginFlg = adminLoginFlg;
+	}
+
+
+	public AdminItemDTO getAdminItemInfo() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

@@ -14,7 +14,7 @@ public class AdminLoginDAO {
 
 	private Connection connection = dbConnector.getConnection();
 
-	private AdminLoginDTO loginDTO = new AdminLoginDTO();
+	private AdminLoginDTO adminLoginDTO = new AdminLoginDTO();
 
 	public AdminLoginDTO getAdminInfo(String adminId, String adminPassword){
 
@@ -32,7 +32,7 @@ public class AdminLoginDAO {
 				adminLoginDTO.setAdminLoginPassword(resultSet.getString("admin_pass"));
 
 				if(!(resultSet.getString("admin_id").equals(null))){
-					loginDTO.setAdminLoginFlg(true);
+					adminLoginDTO.setAdminLoginFlg(true);
 				}
 			}
 

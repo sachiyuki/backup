@@ -1,0 +1,22 @@
+package com.internousdev.ecsite.dto;
+
+public class AdminItemDTO {
+
+	public AdminItemDTO getAdminItemInfo() {
+		return null;
+	}
+
+	public Object getId() {
+		return null;
+	}
+
+	public Object getItemName() {
+		return null;
+	}
+
+	public Object getItemPrice() {
+		return null;
+	}
+
+
+}

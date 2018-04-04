@@ -1,4 +1,0 @@
-127.0.0.1 - - [13/Dec/2017:21:52:16 +0900] "GET / HTTP/1.1" 404 1019
-0:0:0:0:0:0:0:1 - - [13/Dec/2017:21:52:24 +0900] "GET /ecsite/ HTTP/1.1" 200 1690
-0:0:0:0:0:0:0:1 - - [13/Dec/2017:21:52:36 +0900] "POST /ecsite/HomeAction.action;jsessionid=2CDE16448D04AF711419E054BF12BE5D HTTP/1.1" 200 2371
-0:0:0:0:0:0:0:1 - - [13/Dec/2017:21:52:42 +0900] "GET /ecsite/UserCreateAction.action HTTP/1.1" 404 1061

@@ -1,8 +1,0 @@
-contextsDir=C\:\\pleiades\\pleiades\\tomcat\\8\\conf\\Catalina\\localhost
-eclipse.preferences.version=1
-managerUrl=http\://localhost\:8080/manager
-projectsInSourcePath=RemoteSystemsTempFiles;Servers;login;login2;template;template2;template4;
-tomcatConfigFile=C\:\\pleiades\\pleiades\\tomcat\\8\\conf\\server.xml
-tomcatDir=C\:\\pleiades\\pleiades\\tomcat\\8
-tomcatJRE=1510913098765
-tomcatVersion=tomcatV8
